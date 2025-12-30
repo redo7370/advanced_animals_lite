@@ -1,0 +1,39 @@
+# Advanced_Animals_Lite Non-Commercial Mod License v1.1
+
+## 1. Grant of License
+The Licensor grants the Licensee the right to:
+
+- Use, copy, modify, and distribute the Software.
+- Create and distribute their own versions of the Software based on the current version of this Mod.
+
+## 2. Restrictions
+
+- **No Commercial Use**: The Software may not be used, directly or indirectly, for commercial purposes. "Commercial purposes" include, but are not limited to, selling, licensing, or monetizing the Software or its derivatives in any form, including monetized videos or streams.
+- **No Patenting**: The Licensee may not file or claim patents based on this Software.
+- **Attribution**: All distributions must credit the original author as `redo7370 (jf)`.
+
+## 3. Disclaimer of Liability
+The Software is provided "as is" without any warranty. The Licensor is not liable for any damages or losses arising from the use of the Software.
+
+## 4. Redistribution of License Terms
+Any redistribution or distribution, whether modified or unmodified, must include this License.
+
+## 5. Modification of Derivatives
+
+- Modified versions may be distributed under the same License.
+- Custom distributions based on this Software may have their own names but must link to the original License.
+- Custom distributions based on this Software may include additional licenses for code that is not based on the code or concept of this Mod, provided that:
+  - The original License is not circumvented, relaxed, or tightened.
+  - Additional licenses apply only to entirely original content not included in this Mod and must be limited to those added parts.
+
+## 6. Definitions
+
+- **Software**: Refers to the Advanced_Animals_Lite Mod, including all associated code, assets, and documentation.
+- **Commercial Purposes**: Includes any activity intended to generate revenue, such as selling, licensing, or monetizing the Software or its derivatives, including monetized videos or streams.
+- **Derivatives**: Refers to any modifications, adaptations, or extensions of the Software.
+
+## 7. Jurisdiction and Governing Law
+This License shall be governed by and construed in accordance with the laws of Germany. Any disputes arising under or in connection with this License shall be subject to the exclusive jurisdiction of the courts in Berlin, Germany.
+
+## 8. Termination
+This License is automatically terminated if the Licensee violates any of its terms. Upon termination, the Licensee must cease all use, distribution, and modification of the Software.

@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "advanced_animals_lite",
+	"version": "${version}",
+	"name": "Advanced Animals Lite",
+	"description": "A Minecraft mod that adds new animals with enhanced behavior, including tameable raccoons with modular movement engines.",
+	"authors": [
+		"JF"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/advanced_animals_lite/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.jf.advancedanimalslite.Advanced_animals_lite"
+		],
+		"client": [
+			"de.jf.advancedanimalslite.Advanced_animals_liteClient"
+		]
+	},
+	"mixins": [
+		"advanced_animals_lite.mixins.json",
+		{
+			"config": "advanced_animals_lite.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
