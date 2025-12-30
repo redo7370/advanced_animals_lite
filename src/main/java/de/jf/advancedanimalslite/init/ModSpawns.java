@@ -33,9 +33,9 @@ public class ModSpawns {
             BiomeSelectors.foundInOverworld(),
             SpawnGroup.CREATURE,
             ModEntities.RACCOON,
-            10,  // weight
+            15,  // weight (pawn rate)
             1,   // minGroupSize
-            3    // maxGroupSize
+            10   // maxGroupSize
         );
     }
 }

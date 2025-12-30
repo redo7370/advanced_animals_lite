@@ -165,6 +165,7 @@ This enables:
   - Model JSON created (`raccoon_spawn_egg.json`)
   - Language files updated
 
+
 ### Iteration 3 - Entity Data Migration & Version 0.1.0-beta
 *Date: December 30, 2025*
 
@@ -180,6 +181,14 @@ This enables:
 - [x] Build successful with Minecraft 1.21.10, Java 21+, Fabric
 - [x] Mod version set to `0.1.0-beta`
 - [x] Custom texture for the Raccoon created (`textures/entity/raccoon.png`)
+
+
+### Iteration 4 - Spawn Update & Biome Support
+*Date: December 30, 2025*
+
+- [x] Raccoon spawn rate significantly increased (weight: 15)
+- [x] Group size adjusted to 1-10
+- [x] Now spawns in all Overworld biomes (1.21.10)
 
 ### Todo (Next Iterations)
 
