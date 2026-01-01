@@ -293,16 +293,15 @@ public class RaccoonEntity extends TameableEntity {
     // 2. Add it to writeCustomData()
     // 3. Add it to readCustomData() with default fallback
     
-    // Example for a custom attribute:
-    // private boolean customAttribute = false;
-    // private static final boolean DEFAULT_CUSTOM_ATTRIBUTE = false;
+    // NBT Key für den Sitz-Status
+    private static final String NBT_SITTING = "RaccoonSitting";
     
     @Override
     protected void writeCustomData(WriteView view) {
         super.writeCustomData(view);
         
-        // Save custom persistent attributes here
-        // Example: view.putBoolean("CustomAttribute", this.customAttribute);
+        // Save sitting state - uses isInSittingPose() from TameableEntity
+        view.putBoolean(NBT_SITTING, this.isInSittingPose());
         
         // IMPORTANT: Deprecated attributes are NOT written anymore,
         // since they are listed in DEPRECATED_ATTRIBUTES and are simply
@@ -313,9 +312,10 @@ public class RaccoonEntity extends TameableEntity {
     protected void readCustomData(ReadView view) {
         super.readCustomData(view);
         
-        // Load custom attributes with default fallback if not present
-        // This ensures entities from older versions work correctly
-        // Example: this.customAttribute = view.getBoolean("CustomAttribute", DEFAULT_CUSTOM_ATTRIBUTE);
+        // Load sitting state with default fallback (false if not present)
+        boolean wasSitting = view.getBoolean(NBT_SITTING, false);
+        this.setSitting(wasSitting);
+        this.setInSittingPose(wasSitting);
         
         // Deprecated attributes are automatically ignored:
         // - They are not read here

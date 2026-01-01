@@ -155,7 +155,6 @@ This enables:
 - `EntityModel<Entity>` → `EntityModel<LivingEntityRenderState>`
 - `MobEntityRenderer<T, M>` → `MobEntityRenderer<T, S, M>` with RenderState
 
-
 ### Iteration 2 - Items and Resources
 *Date: December 28, 2025*
 
@@ -164,7 +163,6 @@ This enables:
   - Automatically added to SPAWN_EGGS Creative Tab
   - Model JSON created (`raccoon_spawn_egg.json`)
   - Language files updated
-
 
 ### Iteration 3 - Entity Data Migration & Version 0.1.0-beta
 *Date: December 30, 2025*
@@ -182,13 +180,20 @@ This enables:
 - [x] Mod version set to `0.1.0-beta`
 - [x] Custom texture for the Raccoon created (`textures/entity/raccoon.png`)
 
-
 ### Iteration 4 - Spawn Update & Biome Support
 *Date: December 30, 2025*
 
 - [x] Raccoon spawn rate significantly increased (weight: 15)
 - [x] Group size adjusted to 1-10
 - [x] Now spawns in all Overworld biomes (1.21.10)
+
+### Iteration 5 - Bugfix: Sitting Status is Saved
+*Date: January 1, 2026*
+
+ - [x] Bugfix: The sitting status (whether a raccoon is sitting) is now correctly saved and loaded
+  - Raccoons that were sitting when saved will be sitting again after loading
+  - Sitting status is stored as an NBT attribute ("RaccoonSitting")
+- [x] README & Changelog updated
 
 ### Todo (Next Iterations)
 
